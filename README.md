@@ -26,10 +26,11 @@ This code requires the following:
 python 2.* or python 3.*
 TensorFlow v1.0+
 
-## Data Generation
-The orignial datasets (i.e., samplematrix**.mat) cannot be uploaded here due to the limitation of size. If anyone needs to access the datasets, please contact: yyw18@mails.tsinghua.edu.cn.
 
 ## Usage instructions
+
+### Data Generation
+The orignial datasets (i.e., samplematrix**.mat) cannot be uploaded here due to the limitation of size. If anyone needs to access the datasets, please contact: yyw18@mails.tsinghua.edu.cn.
 
 ## Demo Result
 
