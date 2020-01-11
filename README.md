@@ -4,7 +4,6 @@ Data-Generation-and-Codes-for-Deep-Transfer-Learning-Based-Downlink-Channel-Pred
 ## Notice
 In order to use the DeepMIMO datasets/codes or any (modified) part of them, please
 1. The corresponding paper: Yang, Y., Gao, F., Zhong, Z., Ai, B., A. Alkhateeb. (2019). [Deep Transfer Learning Based Downlink Channel Prediction for FDD Massive MIMO Systems](https://arxiv.org/abs/1912.12265).
-The DeepMIMO paper: A. Alkhateeb,"DeepMIMO: A Generic Deep Learning Dataset for Millimeter Wave and Massive MIMO Applications ,"in Proc. of Information Theory and Applications Workshop (ITA), San Diego, CA, Feb. 2019.
 2. The Remcom Wireless InSite website: Remcom, [Wireless insite](https://www.remcom.com/wireless-insite).
 <details>
 <summary>Unfold to see bibtex codes</summary>
