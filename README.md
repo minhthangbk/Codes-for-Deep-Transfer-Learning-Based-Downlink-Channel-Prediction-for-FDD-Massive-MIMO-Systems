@@ -23,8 +23,8 @@ note = {\url{https://www.remcom.com/wireless-insite-em-propagation-software}}
 
 ## Dependencies
 This code requires the following:
-python 2.* or python 3.*
-TensorFlow v1.0+
+python 3.*
+TensorFlow v1.4+
 
 
 ## Usage instructions
