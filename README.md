@@ -2,7 +2,7 @@
 Data-Generation-and-Codes-for-Deep-Transfer-Learning-Based-Downlink-Channel-Prediction-for-FDD-Massive-MIMO-Systems
 
 ## Notice
-In order to use the DeepMIMO datasets/codes or any (modified) part of them, please
+In order to use the DeepMIMO datasets/codes or any (modified) part of them, please cite
 1. The corresponding paper: Yang, Y., Gao, F., Zhong, Z., Ai, B., A. Alkhateeb. (2019). [Deep Transfer Learning Based Downlink Channel Prediction for FDD Massive MIMO Systems](https://arxiv.org/abs/1912.12265).
 2. The Remcom Wireless InSite website: Remcom, [Wireless insite](https://www.remcom.com/wireless-insite).
 <details>
@@ -22,9 +22,7 @@ note = {\url{https://www.remcom.com/wireless-insite-em-propagation-software}}
 </details>
 
 ## Dependencies
-This code requires the following:
-python 3.*
-TensorFlow v1.4+
+This code requires the following: python 3.*, TensorFlow v1.4+
 
 
 ## Usage instructions
