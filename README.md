@@ -32,7 +32,14 @@ They also provide the foundation to reproduce the other results
 ### Data Generation
 The orignial datasets (i.e., samplematrix**.mat) cannot be uploaded here due to the limitation of size. If anyone needs to access the datasets, please contact: yyw18@mails.tsinghua.edu.cn.
 
-## Demo Result
+## Reproduce the Demo Result
+
+Reproducing The Figure:
+Generate a dataset for scenario I1_2p4 using the settings in the table above--number of paths should be 1.
+Organize the data into a MATLAB structure named "rawData" with the following fields: channel and userLoc. "channel" is a 3D array with dimensions: # of antennas X # of sub-carriers X # of users while "userLoc" is a 2D array with dimensions: 3 X # of users.
+Save the data structure into a .mat file.
+In the file main, set the option: options.rawDataFile1 to point to the .mat file.
+Run main.m
 
 ## Related sources
 
