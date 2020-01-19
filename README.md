@@ -25,23 +25,19 @@ note = {\url{https://www.remcom.com/wireless-insite-em-propagation-software}}
 This code requires the following: python 3.*, TensorFlow v1.4+
 
 
+
+### Data Generation
+To access the datasets (i.e., samples_target64_1036_2.mat and samples_source64_1552_2.mat), please click [here](https://drive.google.com/drive/folders/17WBUbbqnLbUjTuMuGNgnddwCx5Uw_q0H?usp=sharing).<br>
+More questions about the data generation, please contact: yyw18@mails.tsinghua.edu.cn.
+
 ## Usage instructions
 
 They also provide the foundation to reproduce the other results 
-### Data Generation
-To access the datasets (i.e., samples_target64_1036_2.mat and samples_source64_1552_2.mat), please click [here](https://drive.google.com/drive/folders/17WBUbbqnLbUjTuMuGNgnddwCx5Uw_q0H?usp=sharing).
-
-
-More questions about the data generation, please contact: yyw18@mails.tsinghua.edu.cn.
 
 ## Reproduce the Demo Result
 
 Reproducing The Figure:
-Generate a dataset for scenario I1_2p4 using the settings in the table above--number of paths should be 1.
-Organize the data into a MATLAB structure named "rawData" with the following fields: channel and userLoc. "channel" is a 3D array with dimensions: # of antennas X # of sub-carriers X # of users while "userLoc" is a 2D array with dimensions: 3 X # of users.
-Save the data structure into a .mat file.
-In the file main, set the option: options.rawDataFile1 to point to the .mat file.
-Run main.m
+
 
 ## Related sources
 
