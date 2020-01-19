@@ -113,7 +113,7 @@ def Exactraction_path_parameters():
 BS_frequency=np.arange(1000,2982,60)
 ID_area=np.arange(37,200,1)
 ID_inf=[str(ind) for ind in ID_area]
-area_unit=36
+area_unit=25
 
 # rename_output_file()
 # Exactraction_path_parameters()
