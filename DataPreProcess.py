@@ -146,7 +146,7 @@ for id_area in ID_inf:
 					channel_pairs_task.append(pair)
 			# print('testing code: shape of source channel_pairs_task is ', np.asarray(channel_pairs_task).shape)
 			Source_Task_list.append(channel_pairs_task)
-		elif (task_index+3)%7 !=0:# target task
+		elif (task_index+3)%3 !=0:# target task
 			channel_pairs_task = []
 			for fre_index in range(len(channel_matrix_task) - diff):
 				channel_uplink = channel_matrix_task[fre_index]
@@ -156,7 +156,7 @@ for id_area in ID_inf:
 						(np.real(channel_uplink[user_index]), np.imag(channel_uplink[user_index])))
 					downlink_channel_real = np.concatenate(
 						(np.real(channel_downlink[user_index]), np.imag(channel_downlink[user_index])))
-					pair = np.array([uplink_channel_real, uplink_channel_real])
+					pair = np.array([uplink_channel_real, downlink_channel_real])
 					channel_pairs_task.append(pair)
 			# print('testing code: shape of target channel_pairs_task is ', np.asarray(channel_pairs_task).shape)
 			Target_Task_list.append(channel_pairs_task)
