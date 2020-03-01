@@ -141,7 +141,7 @@ for id_area in ID_inf:
 						(np.real(channel_uplink[user_index]), np.imag(channel_uplink[user_index])))
 					downlink_channel_real = np.concatenate(
 						(np.real(channel_downlink[user_index]), np.imag(channel_downlink[user_index])))
-					pair = np.array([uplink_channel_real, uplink_channel_real])
+					pair = np.array([uplink_channel_real, downlink_channel_real])
 					# print('testing code: shape of source pair is ', np.asarray(pair).shape)
 					channel_pairs_task.append(pair)
 			# print('testing code: shape of source channel_pairs_task is ', np.asarray(channel_pairs_task).shape)
