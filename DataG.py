@@ -6,10 +6,10 @@ import scipy.io as scio
 # data preprocessing
 # ant=64
 # diff=2
-# dataNew = './DataSave/samples_source2' + str(ant) + '_1593_' + str(diff) + '.mat'
+# dataNew = './DataSave/samples_source_noised' + str(ant) + '_1593_' + str(diff) + '.mat'
 # data_matrix = scio.loadmat(dataNew)
 # Source_Task_list = data_matrix['Source_Task_list']
-# dataNew = './DataSave/samples_target2' + str(ant) + '_800_' + str(diff) + '.mat'
+# dataNew = './DataSave/samples_target_noised' + str(ant) + '_800_' + str(diff) + '.mat'
 # # dataNew = './DataSave/samples_targetwhy2'+str(ant)+'_592_'+str(diff)+'.mat'
 # data_matrix = scio.loadmat(dataNew)
 # Target_Task_list = data_matrix['Target_Task_list']
